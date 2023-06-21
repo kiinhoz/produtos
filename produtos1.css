@@ -1,0 +1,36 @@
+.container-prod{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.container-prod .left-side{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-prod .left-side .select-image {
+    margin-top: 7rem;
+    max-width: 25rem;
+}
+
+.container-prod .left-side .select-image img{
+    width: 100%;
+}
+
+.container-prod .left-side .thumbnails{
+    display: flex;
+    justify-content: space-between;
+    max-width: 25rem;
+    gap:10px;
+}
+
+.container-prod .left-side .thumbnails .thumbnail {
+    width: 100%;
+    border-radius: 10px;
+}
+.container-prod .left-side .thumbnails .thumbnail img{
+    max-width: 10rem;
+    height: auto; 
+}
+
