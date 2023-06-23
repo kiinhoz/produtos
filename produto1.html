@@ -3,17 +3,17 @@
 <head>
   <title>Meu Site</title>
   <link rel="stylesheet" type="text/css" href="produtos.css">
-
 </head>
 <body>
   <header>
     <h1>Meu Site</h1>
   </header>
-  
+  <div class="product-separator">
+
   <div class="container">
     <div class="product-images">
-      <div class="reference-image active">
-        <img src="img/2.jpg" alt="Imagem de referência 1">
+      <div class="reference-image">
+        <img src="img/11.jpg" alt="Imagem de referência 1">
       </div>
       <div class="reference-image">
         <img src="img/1.jpg" alt="Imagem de referência 2">
@@ -28,20 +28,33 @@
 
     <div class="product-info">
       <div class="product-image">
-        <img src="img/2.jpg" alt="Imagem do Produto">
+        <a href="https://shopee.com.br/Conjunto-feminino-na-malha-suede-pantalona-com-el%C3%A1stico-na-cintura-i.1019138705.21798654107?xptdk=4d401a78-0e55-4cbc-a183-e175a4c4663a" target="_blank">
+          <img src="img/11.jpg" alt="Imagem do Produto">
+        </a>
       </div>
+</div>  
       <div class="product-description">
-        <p>Descrição do Produto</p>
-      </div>
-      <div class="product-price">
-        <p>Preço do Produto</p>
-      </div>
-      <div class="product-button">
-        <button>Comprar</button>
+        <h2>Elegância Suede</h2>
+        <p>Tamanhos disponíveis:</p>
+        <div class="product-sizes">
+          <button>PP</button>
+          <button>P</button>
+          <button>M</button>
+          <button>G</button>
+          <button>GG</button>
+        </div>
+
+        <div class="product-price">
+          <p class="original-price">De: <strong>R$ 99,99</strong></p>
+          <p class="discounted-price">R$ 59,99</p>
+          <p class="installment-price">OU 10 DE <span class="installment-value">R$ 5,99</span></p>
+          <p class="savings">Economia de R$ 40,00</p>
+        </div>
       </div>
     </div>
   </div>
 
-  <script src="script.js"></script>
+  <script src="trocar_img_referencia.js"></script>
+  <script src="zoomed.js"></script>
 </body>
 </html>
